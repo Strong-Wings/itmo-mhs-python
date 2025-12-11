@@ -1,0 +1,68 @@
+### Вывод из файла - свой код
+stepan_kryzhankov@itmo-mhs-python % /usr/bin/python3 /Users/stepan_kryzhankov/itmo/itmo-mhs-python/hw1/tail.py hw1/artifacts/test_1.txt hw1/artifacts/test_2.txt
+==> hw1/artifacts/test_1.txt <==
+
+
+
+
+
+
+
+
+
+z
+
+==> hw1/artifacts/test_2.txt <==
+xxc
+abc
+cde
+cde
+cde
+abc
+xxy
+xxz
+xxx
+xxc
+
+
+### Вывод из файла - утилита tail
+stepan_kryzhankov@itmo-mhs-python % tail hw1/artifacts/test_1.txt hw1/artifacts/test_2.txt
+==> hw1/artifacts/test_1.txt <==
+
+
+
+
+
+
+
+
+
+z
+
+==> hw1/artifacts/test_2.txt <==
+xxc
+abc
+cde
+cde
+cde
+abc
+xxy
+xxz
+xxx
+xxc
+
+
+### Вывод из stdin - свой код
+stepan_kryzhankov@itmo-mhs-python % ls -l | /usr/bin/python3 /Users/stepan_kryzhankov/itmo/itmo-mhs-python/hw1/tail.py
+total 8
+drwxr-xr-x@ 6 stepan_kryzhankov  staff  192 Dec 11 16:24 hw1
+-rw-r--r--@ 1 stepan_kryzhankov  staff  336 Dec 11 16:42 pyproject.toml
+
+
+### Вывод из stdin - утилита tail
+stepan_kryzhankov@itmo-mhs-python % ls -l | tail
+total 8
+drwxr-xr-x@ 6 stepan_kryzhankov  staff  192 Dec 11 16:24 hw1
+-rw-r--r--@ 1 stepan_kryzhankov  staff  336 Dec 11 16:42 pyproject.toml
+
+

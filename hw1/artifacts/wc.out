@@ -1,0 +1,22 @@
+### Вывод из файла - свой код
+stepan_kryzhankov@itmo-mhs-python % /usr/bin/python3 /Users/stepan_kryzhankov/itmo/itmo-mhs-python/hw1/wc.py hw1/artifacts/test_1.txt hw1/artifacts/test_2.txt
+      26       9      35 hw1/artifacts/test_1.txt
+      45      45     180 hw1/artifacts/test_2.txt
+      71      54     215 total
+
+
+### Вывод из файла - утилита wc
+stepan_kryzhankov@itmo-mhs-python % wc hw1/artifacts/test_1.txt hw1/artifacts/test_2.txt
+      26       9      35 hw1/artifacts/test_1.txt
+      45      45     180 hw1/artifacts/test_2.txt
+      71      54     215 total
+
+
+### Вывод из stdin - свой код
+stepan_kryzhankov@itmo-mhs-python % ls -l | /usr/bin/python3 /Users/stepan_kryzhankov/itmo/itmo-mhs-python/hw1/wc.py
+       3      20     141
+
+
+### Вывод из stdin - утилита wc
+stepan_kryzhankov@itmo-mhs-python % ls -l | wc
+       3      20     141

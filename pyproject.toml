@@ -1,0 +1,16 @@
+[project]
+name = "itmo-mhs-python"
+version = "0.1.0"
+description = "Python home tasks"
+authors = [
+    {name = "Stepan Kryzhankov",email = "stepan_kryzhankov@ozon.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
