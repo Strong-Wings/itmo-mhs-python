@@ -1,7 +1,7 @@
 [project]
-name = "itmo-mhs-python"
+name = "latex_generator_skryzhankov"
 version = "0.1.0"
-description = "Python home tasks"
+description = "Latex generator"
 authors = [
     {name = "Stepan Kryzhankov"}
 ]

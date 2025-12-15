@@ -1,7 +1,7 @@
 [project]
-name = "itmo-mhs-python"
+name = "hw2"
 version = "0.1.0"
-description = "Python home tasks"
+description = ""
 authors = [
     {name = "Stepan Kryzhankov"}
 ]
