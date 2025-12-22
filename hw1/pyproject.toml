@@ -1,14 +1,15 @@
-[project]
+[tool.poetry]
 name = "hw1"
 version = "0.1.0"
 description = "Python home tasks"
 authors = [
     {name = "Stepan Kryzhankov"}
 ]
-readme = "README.md"
 requires-python = ">=3.9"
-dependencies = [
-]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
 
 
 [build-system]
